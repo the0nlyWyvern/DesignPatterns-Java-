@@ -27,8 +27,23 @@ public class StockGrabber implements Subject {
 
     @Override
     public void notifyObserver() {
-        // TODO Auto-generated method stub
-
+        for (Observer observer : observers) {
+            observer.update(IBMprice, AAPLprice, GOOGprice);
+        }
     }
 
+    public void setIBMprice(double newPrice) {
+        this.IBMprice = newPrice;
+        notifyObserver();
+    }
+
+    public void setAAPLprice(double newPrice) {
+        this.AAPLprice = newPrice;
+        notifyObserver();
+    }
+
+    public void setGOOGprice(double newPrice) {
+        this.GOOGprice = newPrice;
+        notifyObserver();
+    }
 }

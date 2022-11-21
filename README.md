@@ -1,4 +1,4 @@
-# DESIGN PATTERNS FOR BEGINNERS(ft. Java)
+# DESIGN PATTERNS FOR BEGINNERS (ft. Java)
 
 # Description
 
@@ -6,7 +6,7 @@
 
 Creational Pattern:
 
-- [ ] Observer
+- [x] Observer
 - [ ] Factory
 - [ ] Abstract Factory
 - [ ] Singleton
