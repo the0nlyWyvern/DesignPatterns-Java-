@@ -7,8 +7,8 @@
 Creational Pattern:
 
 - [x] Observer
-- [ ] Factory
-- [ ] Abstract Factory
+- [x] Factory
+- [x] Abstract Factory
 - [ ] Singleton
 - [ ] Builder
 - [ ] Prototype

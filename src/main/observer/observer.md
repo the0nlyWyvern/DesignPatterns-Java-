@@ -18,4 +18,4 @@ Negatives: The Subject (publisher) may send updates that don't matter to the Obs
 
 # UML diagram
 
-![example](../../../Screenshots/observer/ex1.jpg)
+![example](../../../Screenshots/observer.jpg)

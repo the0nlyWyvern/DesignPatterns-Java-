@@ -1,6 +1,6 @@
 package main.observer;
 
-public class GrabStocks {
+public class Main {
     public static void main(String[] args) {
         StockGrabber stockCompany = new StockGrabber();
         StockObserver personA = new StockObserver(stockCompany);

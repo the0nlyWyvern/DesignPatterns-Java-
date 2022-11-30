@@ -3,7 +3,7 @@ package main.factory;
 import java.util.Optional;
 import java.util.Scanner;
 
-public class EnemyShipTesting {
+public class Main {
     public static void main(String[] args) {
 
         EnemyShipFactory shipFactory = new EnemyShipFactory();

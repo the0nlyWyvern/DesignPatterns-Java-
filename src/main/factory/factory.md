@@ -19,4 +19,4 @@ E.g:
 
 # UML diagram
 
-![example](../../../Screenshots/factory/ex1.jpg)
+![example](../../../Screenshots/factory.jpg)
