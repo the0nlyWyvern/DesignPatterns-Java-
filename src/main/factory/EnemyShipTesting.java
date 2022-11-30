@@ -1,23 +1,24 @@
 package main.factory;
 
+import java.util.Optional;
 import java.util.Scanner;
 
 public class EnemyShipTesting {
     public static void main(String[] args) {
 
         EnemyShipFactory shipFactory = new EnemyShipFactory();
-        EnemyShip theEnemy = null;
+        Optional<EnemyShip> theEnemy = null;
 
         Scanner userInput = new Scanner(System.in);
         System.out.println("What type of ship? (U / B / R)");
 
         if (userInput.hasNextLine()) {
-            String typeOfShipe = userInput.nextLine();
-            theEnemy = shipFactory.makeEnemyShip(typeOfShipe);
+            String typeOfShip = userInput.nextLine();
+            theEnemy = shipFactory.makeEnemyShip(typeOfShip);
         }
 
-        if (theEnemy != null)
-            doStuffEnemy(theEnemy);
+        if (theEnemy.isPresent())
+            doStuffEnemy(theEnemy.get());
         else
             System.out.println("Wrong type!!!");
     }

@@ -1,15 +1,17 @@
 package main.factory;
 
+import java.util.Optional;
+
 public class EnemyShipFactory {
-    public EnemyShip makeEnemyShip(String newShipType) {
+    public Optional<EnemyShip> makeEnemyShip(String newShipType) {
         EnemyShip newShip = null;
 
         if (newShipType.equalsIgnoreCase("U")) {
-            return new UFOEnemyShip();
+            return Optional.of(new UFOEnemyShip());
         } else if (newShipType.equalsIgnoreCase("R")) {
-            return new RocketEnemyShip();
+            return Optional.of(new RocketEnemyShip());
         } else if (newShipType.equalsIgnoreCase("B")) {
-            return new BigUFOEnemyShip();
+            return Optional.of(new BigUFOEnemyShip());
         } else
             return null;
     }
