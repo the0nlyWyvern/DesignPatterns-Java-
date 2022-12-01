@@ -1,4 +1,4 @@
-package main.observer;
+package main.behavioralPattern.observer;
 
 public class Main {
     public static void main(String[] args) {

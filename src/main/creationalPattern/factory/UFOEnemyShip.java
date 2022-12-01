@@ -1,4 +1,4 @@
-package main.factory;
+package main.creationalPattern.factory;
 
 public class UFOEnemyShip extends EnemyShip {
 

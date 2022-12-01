@@ -6,7 +6,6 @@
 
 Creational Pattern:
 
-- [x] Observer
 - [x] Factory
 - [x] Abstract Factory
 - [ ] Singleton
@@ -25,7 +24,7 @@ Structural Pattern:
 
 Behavioral Pattern:
 
-- [ ] Observer
+- [x] Observer
 - [ ] Strategy
 - [ ] Command
 - [ ] Template Method

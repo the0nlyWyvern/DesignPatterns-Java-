@@ -1,4 +1,4 @@
-package main.observer;
+package main.behavioralPattern.observer;
 
 import java.text.DecimalFormat;
 

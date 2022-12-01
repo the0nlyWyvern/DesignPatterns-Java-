@@ -1,6 +1,7 @@
 # Definition
 
 When a method returns one of the several possible classes that share a common super class.
+User cannot know the logic of creation
 
 E.g:
 
